@@ -2,24 +2,21 @@ const chai = require('chai');
 const { assert } = require('chai');
 
 
-//remove strings containing y or Y 
-
 describe('why', () => {
 
-    const numOrigin = [2, 3, 9, 12, 8, 5, 7];
+    const words = ['sky', 'hot', 'Yeti', 'green'];
 
-    it.skip('returns only the odd numbers in the array', () => {
+    it.skip('returns only strings without a y or Y', () => {
+        words.indexOf('Y') !== -1;
+
+        
+    });
+
+    it.skip('adds returned strings to phrase', () => {
 
     });
 
-    it.skip('squares each odd number', () => {
-
-    });
-
-    it.skip('returns the squared values greater than 24', () => {
+    it.skip('returns completed phrases', () => {
 
     });
 });
-// add remaining strings to statement "is it..." 
-
-//return completed phrases
